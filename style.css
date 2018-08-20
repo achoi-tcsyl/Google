@@ -1,0 +1,98 @@
+.theme {
+    font-family: arial,sans-serif;
+} 
+.header {
+    top:0;
+    position:fixed;
+    width: 100vw;
+    margin-left: 18px;
+    margin-top: px;
+    font-size: small;
+    margin: 2vh;
+}   
+.middle {
+    margin-top: 30vh;
+    text-align: center; 
+}
+.footer  {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(221, 220, 220);
+    font-size: 14px;
+}
+.searchbar{
+width: 43vw;
+height: 35px;
+box-shadow: 6px 2px #cccccc
+}
+.buttons{
+    background-color: rgb(219, 217, 217);
+    border: none;
+    color: black;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+.left{
+    float: left;
+    margin-left: 3vh;
+    margin-top: 10px;
+}
+.right{
+    float: inherit;
+    margin-left: 81.9vw;
+    margin-right: 10px;
+    word-spacing: 4px
+}
+.top {
+    float: top;
+    margin-top: 1vw;
+    margin-top: px;
+}
+.right2{
+    float: inherit;
+    margin-left: 83vw;
+    margin-top: 10px;
+}
+a:link  {
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+ 
+}
+.signinbutton{
+    background-color: rgb(66, 130, 248);
+    width: 5vw;
+    height:2vw;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 0vw
+}
